@@ -53,7 +53,7 @@ public class Model3D implements Cloneable {  //punem implements cloneable
 	
 	//source override clone
 	@Override
-	protected Object clone() {
+	protected Object clone() throws CloneNotSupportedException {
 		
 		//Nu asa
 		//Model3D  copie = new Model3D(this.nume, this.fisierModel);
@@ -65,6 +65,25 @@ public class Model3D implements Cloneable {  //punem implements cloneable
 		
 		return copie;
 	}
+
+	// set si get
+	public String getNume() {
+		return nume;
+	}
+
+	public void setNume(String nume) {
+		this.nume = nume;
+	}
+
+	public String getFisierModel() {
+		return fisierModel;
+	}
+
+	public void setFisierModel(String fisierModel) {
+		this.fisierModel = fisierModel;
+	}
+
+	
 	
 	
 
