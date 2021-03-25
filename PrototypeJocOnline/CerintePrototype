@@ -1,0 +1,20 @@
+Pentru dexvoltarea unui joc online( cu super eroi) sa se dezvolte o solutie software care sa permita
+
+
+1. Toate caracterele au asociat un model grafic 3D
+- in joc pot aparea instante ale aceluiasi caracter
+- crearea modelului 3D este un proces costisitor deoarece presupune incarcarea si generarea modeluli
+- trebuie gasita o solutie eficienta pentru a creea mai multe instante ale aceluiasi caracter
+
+
+2. Utilizarea unei librarii externe ce ontine caractere Disneu.
+- in prezent jocul contine caractere proprii ce fac parte din framework -ul ACME
+
+3. Modificarea in timpul jocului a caracteristicelor unor super- eroi
+- in timpul jocului super - eroii pot fi dotati cu echipamente noi
+- comportamentul super- eroului se poate modifica dinamic in functie de interactiunea cu celelalte caractere din joc
+
+4. Pentru a permite altor companii sau jucatorilor sa dezvolte solutii externe care sa se concentreze la joc trebuie dezvoltata o librarie
+-API- ul contine multe clase cu multe detalii
+- nu toate clasele sunt documentate
+- PI-ul trebuie sa ofere o interfata simplificata pentru un set de functii de baza
