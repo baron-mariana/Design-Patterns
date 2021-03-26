@@ -1,0 +1,7 @@
+ In cadrul firmei de Broker Asigurari S.A se doreste  implementarea unui mod de creare de contracte de asigurare pt client:
+ asigurare de locuinte si asigurare auto
+ Cele doua modele de contracte de asigurare contin informatii complexe referitoare la clauzele contractuale,
+ iar generarea lor trebuie facuta la nivelul fiecarui nou client in parte,conducand la un impact asupra timpului de procesare
+ in procesul de creeare
+ Acelasi model de contractcontinand clauzele contractuale aferente  este folosit pentru fiecare  nou contract in parte.
+ Firma doreste implementarea unui modul eficient prin care contractele sa se implementeze rapid.
